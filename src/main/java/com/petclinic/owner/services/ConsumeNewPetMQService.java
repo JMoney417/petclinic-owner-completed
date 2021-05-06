@@ -3,7 +3,7 @@ package com.petclinic.owner.services;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.stereotype.Service;
 import javax.jms.*;
-import javax.xml.soap.Text;
+
 
 @Service
 public class ConsumeNewPetMQService {
